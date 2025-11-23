@@ -1,0 +1,82 @@
+/* Minimal, highly-compatible Gruvbox Rasi for rofi */
+
+/* palette */
+@bg:       #282828;
+@surface:  #3c3836;
+@fg:       #ebdbb2;
+@muted:    #a89984;
+@accent:   #fabd2f;
+@sel:      #504945;
+@border:   #665c54;
+
+/* minimal configuration — include only font for compatibility */
+configuration {
+    font: "Iosevka Nerd Font 14";
+}
+
+/* window container */
+window {
+    background: @bg;
+    border: 1px solid @border;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* main layout */
+mainbox {
+    children: [ "inputbar", "listview" ];
+    orientation: vertical;
+    spacing: 8px;
+}
+
+/* inputbar */
+inputbar {
+    background: @surface;
+    border: 2px solid @accent;
+    border-radius: 8px;
+    padding: 8px 10px;
+}
+inputbar entry {
+    text-color: @fg;
+    background: transparent;
+    caret-color: @accent;
+}
+
+/* list (results) */
+listview {
+    background: transparent;
+    spacing: 6px;
+}
+
+/* each item */
+element {
+    background: transparent;
+    text-color: @fg;
+    padding: 8px 10px;
+    border-radius: 6px;
+}
+
+/* selected item (compatible selector) */
+element:selected {
+    background: @sel;
+    text-color: @bg;
+    border-left: 4px solid @accent;
+    padding-left: 8px;
+}
+
+/* alternate / subtext */
+element:alternate {
+    text-color: @muted;
+    font-size: 12px;
+}
+
+/* scrollbar */
+scrollbar {
+    background: rgba(255,255,255,0.02);
+    width: 8px;
+}
+scrollbar slider {
+    background: rgba(255,255,255,0.06);
+    border-radius: 4px;
+}

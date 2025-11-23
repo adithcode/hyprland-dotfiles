@@ -1,0 +1,9 @@
+[Unit]
+Description=Apply pywal theme at login
+
+[Service]
+Type=oneshot
+ExecStart=%h/.config/pywal/apply_pywal.sh
+
+[Install]
+WantedBy=default.target

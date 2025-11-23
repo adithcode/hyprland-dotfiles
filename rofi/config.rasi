@@ -1,0 +1,19 @@
+@theme "~/.config/rofi/wal-gruvbox-wrapper.rasi"
+
+configuration {
+    display-ssh:    "";
+    display-run:    "";
+    display-drun:   "";
+    display-window: "";
+    display-combi:  "";
+    show-icons:     true;
+}
+
+element-icon{
+	size:32px;
+}
+
+
+entry{
+	font: "Iosevka Nerd Font Mono 18";
+}

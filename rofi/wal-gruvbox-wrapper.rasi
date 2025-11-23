@@ -1,0 +1,4 @@
+/* wrapper: import pywal rofi colors then your chosen theme */
+@import "~/.cache/wal/colors-rofi-dark.rasi"
+/* now import your existing theme */
+@import "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"

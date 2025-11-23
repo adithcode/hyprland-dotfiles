@@ -1,0 +1,12 @@
+[Unit]
+Description=SwayNotificationCenter daemon
+After=dbus-user-session.service
+
+[Service]
+# small sleep avoids races with other autostarted notifiers
+ExecStart=/bin/sh -c "sleep 0.6; exec /usr/bin/swaync"
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=default.target

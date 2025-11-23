@@ -1,0 +1,43 @@
+* {
+    font: "Iosevka Nerd Font 14";
+}
+
+/* window */
+window {
+    background: #282828;
+    foreground: #ebdbb2;
+    border-width: 2px;
+    border-color: #665c54;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+/* prompt / search box */
+prompt {
+    background: #3c3836;
+    foreground: #ebdbb2;
+    padding: 8px;
+}
+
+/* input area */
+input {
+    background: #3c3836;
+    foreground: #ebdbb2;
+    padding: 8px;
+}
+
+/* list entries */
+entry {
+    background: transparent;
+    foreground: #ebdbb2;
+    padding: 6px 10px;
+}
+
+/* selected entry */
+entry:selected {
+    background: #504945;
+    foreground: #282828;
+    border-left-width: 4px;
+    border-left-color: #fabd2f;
+    padding-left: 10px;
+}

@@ -1,0 +1,2 @@
+@import "~/.cache/wal/colors-rofi.rasi"
+@theme "/usr/share/rofi/themes/gruvbox-dark-hard.rasi"
