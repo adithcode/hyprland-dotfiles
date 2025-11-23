@@ -13,6 +13,7 @@ This repository contains my personal Hyprland setup and configuration files, inc
 - `rofi/` - Rofi/Fuzzel launcher configuration
 - `scripts/` - Useful custom scripts
 - `wallpapers/` - Wallpapers
+- 
 
 ## Installation
 
@@ -24,3 +25,7 @@ Clone the repository:
 git clone https://github.com/adithcode/hyprland-dotfiles.git ~/hyprland-dotfiles
 cd ~/hyprland-dotfiles
 ./install.sh
+
+
+## Images
+<img width="1918" height="1080" alt="image" src="https://github.com/user-attachments/assets/39fb9279-db87-4324-9388-fd0e72d55e7d" />
